@@ -1,0 +1,169 @@
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 50%;
+}
+header nav ul li {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+header nav ul li a {
+  color: black;
+  transition: all 0.2s ease;
+}
+header nav ul li a:hover {
+  color: rgba(152, 57, 25, 0.5);
+}
+
+main section.main-info {
+  margin-top: 10px;
+  min-height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main section.main-info .info {
+  flex-basis: 450px;
+  padding: 1rem;
+}
+main section.main-info .info h1 {
+  font-size: 50px;
+}
+main section.main-info .info h2 {
+  font-size: 30px;
+}
+main section.main-info .info a {
+  color: black;
+  font-size: 1.5rem;
+  background-color: #0becc7;
+  display: inline-block;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  transition: all 0.2s ease;
+}
+main section.main-info .info a:hover {
+  transform: scale(1.1);
+}
+main section.main-info .info a:active {
+  transform: scale(0.9);
+}
+main section.main-info .img-area {
+  flex-basis: 200px;
+}
+main section.about-me {
+  background-color: #8da2d1;
+  display: flex;
+  justify-content: center;
+}
+main section.about-me section.description {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.about-me section.description h2 {
+  font-size: 30px;
+  padding: 1rem;
+}
+main section.about-me section.description .progress-bar-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.about-me section.description .progress-bar-area p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.about-me section.description .progress-bar-area p img {
+  width: 36px;
+}
+main section.resume {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+main section.resume h2 {
+  width: 100%;
+  font-size: 30px;
+  padding: 1rem;
+}
+main section.resume section.table {
+  flex: 5 1 400px;
+}
+main section.resume section.table table {
+  border-collapse: collapse;
+}
+main section.resume section.table table tr {
+  display: flex;
+  border-bottom: 1px solid black;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+main section.resume section.table table tr:hover {
+  background-color: #0becc7;
+}
+main section.resume section.table table tr td {
+  padding: 1rem;
+}
+main section.resume section.table table tr td.header {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.resume section.table table tr td.content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+main section.resume section.table table tr td.introduction {
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.resume section.picture img {
+  width: 400px;
+}
+
+@media screen and (max-width: 865px) {
+  main section.resume {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) {
+  main section.main-info .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main section.resume {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  header {
+    position: static;
+  }
+  header nav ul {
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=all.css.map */
