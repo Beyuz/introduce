@@ -57,9 +57,6 @@ main section.main-info .info a:hover {
 main section.main-info .info a:active {
   transform: scale(0.9);
 }
-main section.main-info .img-area {
-  flex-basis: 200px;
-}
 main section.about-me {
   background-color: #8da2d1;
   display: flex;
@@ -97,6 +94,7 @@ main section.resume {
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  background-color: blanchedalmond;
 }
 main section.resume h2 {
   width: 100%;
