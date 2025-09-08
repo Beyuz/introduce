@@ -6,6 +6,11 @@
   }
 }
 @media screen and (max-width: 650px) {
+  .animation {
+    span {
+      font-size: 100px;
+    }
+  }
   main {
     section.main-info {
       .info {
